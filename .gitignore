@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.sqlite3
+*.log
+
+# Environment
+.env
+.venv/
+env/
+venv/
+pip-log.txt
+
+# Alembic
+alembic/versions/*.pyc
+alembic/versions/__pycache__/
+alembic.ini~
+
+# Docker
+*.pid
+*.tar
+*.sock
+postgres-data/
+postgres-volume/
+*.db
+
+# VSCode / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS/Linux
+.DS_Store
+Thumbs.db
+
+# GitHub Actions
+.deploy_key
+deploy_key
+deploy_key.pub
