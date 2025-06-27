@@ -1,4 +1,4 @@
-name: 🚀 Deploy to DO Droplet - Prod
+name: 🚀 Deploy to DO Droplet - Production
 
 on:
   push:
