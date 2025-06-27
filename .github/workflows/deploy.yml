@@ -29,6 +29,6 @@ jobs:
           else
             git pull origin main || exit 1
           fi
-          docker-compose down
-          docker-compose up --build -d
+          docker compose down
+          docker compose up --build -d
         EOF
